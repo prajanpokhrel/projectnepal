@@ -1,0 +1,158 @@
+<template>
+    <div>
+         <!-- header -->
+       <section class="header">
+        <div class="topheader">
+            <div class="container">
+               <div>
+                <img class="logo" src="assets/images/Group.png">
+                <nav class="navbar navbar-right">
+                    <div class="container-fluid">
+                      <!-- Brand and toggle get grouped for better mobile display -->
+                      <div class="navbar-header">
+                           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                             <i class="fa fa-bars" ></i>
+                             <span class="sr-only">Toggle navigation</span>
+                             <span class="icon-bar"></span>
+                             <span class="icon-bar"></span>
+                             <span class="icon-bar"></span>
+                          </button>
+                      </div>
+                      <!-- Collect the nav links, forms, and other content for toggling -->
+                    
+                       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                          <ul class="nav navbar-nav navcolor">
+                            <li class="active"><a href="index.html">Home<span class="sr-only">(current)</span></a></li>
+                            <li><a href="Bylocation.html">By location</a></li>
+                            <li><a href="#">Bussiness listing</a></li>
+                            <li><a href="#">Contact</a></li>
+                            <a href="#"><img  class="oval" src="assets/images/Oval.png"></a>
+                            <a href="#"><span class="nav-text">Dileep Kr. Chaudhary</span></a>
+                         </ul>
+                      </div><!-- /.navbar-collapse -->
+                  </div><!-- /.container-fluid -->
+                </nav>
+              </div>
+          </div>
+      </div> 
+    </section>
+    <section  class="post-rectangle">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 canberra-post">
+                    <div class="col-md-2">
+                       <a href="#"><p class="item-numbers">Canbera</p></a>
+                    </div>
+                    <div class="col-md-2">
+                        <a href="canberrapost.html"><p class="item-numbers">Canberra Post</p></a>
+                    </div>
+                    <div class="col-md-2">
+                    <a href="mypost.html"> <p class="item-numbers">My Post</p></a>
+                    </div>
+                    <div class="col-md-2">
+                      <a href="message.html"><p class="item-numbers">Messages</p></a>
+                    </div>
+                    <div class="col-md-2">
+                    <a href="#"><p class="item-numbers">Favourite Post</p></a>
+                    </div>
+                    <div class="col-md-2">
+                        <li><a href="#" class=" btn btn-default post-type"><span class="black">Post An Ad</span></a></li>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="col-md-3">
+                        <div class="box-shape design">
+                            <div>
+                               <a href="#"><img class="post-image" src="assets/images/Oval.png"></a>
+                               <a href="#"><span class="nav-text  name">Dileep Kr. Chaudhary</span></a>
+                               <a href="#"><p class="nav-text name mail">mail@dileep.com.np</p></a>
+                            </div>
+                         </div>
+                         <div class="box-shape total">
+                           <a href="#"><span class="post-details">Total Posts</span></a>
+                            <a href="#"><span class="post-count-number">32</span></a>
+                         </div>
+                         <div class="box-shape total-posts">
+                            <a href="#"><span class="post-details">Active Posts</span></a>
+                           <a href="#"><span class="post-count-number sky">5</span></a>
+                         </div>
+                        <div class="box-shape total-posts ">
+                           <a href="#"><span class="post-details">Expired Posts</span></a>
+                           <a href="#"><span class="post-count-number red">12</span></a>
+                        </div>
+                        <div class="box-shape total-posts default">
+                            <a href="#"><span class="post-details">Default Location</span></a>
+                        </div>
+                      </div>
+                      <div class="col-md-9">
+                         <div class="box-shape post-design">
+                            <a href="#"><img  src="assets/images/Oval (1).png"></a> 
+                            <span class="box-text">Alexandre Paiva</span ><span class="view date ">August 19 at 4:46 PM</span>
+                            <p class="small-content  textside">Canberra, Australia</p>
+                            <div>
+                                <p class="post-text ">I'm Driving to Sydney from Canberra this moring Anyone wants lift?? Comment Below I will get back to you Thanks</p>
+                            </div>
+                         </div>
+                         <div class="box-shape ">
+                            <a href="#"><img  src="assets/images/it.png"> </a>
+                             <span class="view date">August 19 at 4:46 PM</span>
+                            <p class="box-text image-names">IT Project Management&Consultancy Services</p>
+                             <p class="small-content textside">Canberra, Australia</p>
+                           <div class="col-md-2">
+                              <a href="#"><img class="images" src="assets/images/itproject.png"> </a>
+                           </div>
+                           <div>
+                              <p class="post-text long-texts"> Project Team Consultancy Ltd. is offering your business PMP-certified project management and business analysis services in all kinds of Software projects that will ensure profitable digitalisation …  
+                              </p>
+                           </div>
+                        </div>
+                        <div class="box-shape ">
+                            <a href="#"><img src="assets/images/henry.png"></a> 
+                           <span class="box-text">Henry Richardson</span ><span class="view date ">August 19 at 4:46 PM</span>
+                           <p class="small-content  textside">Canberra, Australia</p>
+                          <div>
+                             <p class="post-text ">I am a "L" licence holder and need a full Australian licence holder to sit next to me and guide me Wednesday and Thursday at least for 2 hours a day. I will pay you for that. Anyone interested here can text in this number 23422233.</p>
+                           </div>
+                       </div>
+                     </div>  
+                          
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="list-items">
+        <div class="container">
+            <div class="row">
+               <div class="col-md-12 items ">
+                   <div class="col-md-2 list">
+                     <a href="#"><p class="items-number">Canbera(19 Items)</p></a>
+                   </div>
+                   <div class="col-md-2">
+                      <a href="#"><p class="items-number">Sydney(16 Items)</p></a>
+                   </div>
+                   <div class="col-md-2">
+                      <a href="#"><p class="items-number">Brisbane(11 Items)</p></a>
+                   </div>
+                   <div class="col-md-2">
+                    <a href="#"><p class="items-number">Darwin(13 Items)</p></a>
+                   </div>
+                   <div class="col-md-2">
+                     <a href="#"><p class="items-number">Perth(43 Items)</p></a>
+                   </div>
+               </div>
+            </div>
+        </div>
+     </section>
+    </div>
+</template>
+<script>
+export default {
+    name:'Mypost'
+}
+</script>

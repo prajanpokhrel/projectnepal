@@ -1,0 +1,1119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* header-nav */
+.logo{
+    float: left;
+}
+.fa{
+    line-height: 3;
+}
+ul li a{
+padding-top: 10px; 
+color:grey;
+font-size: 14px;
+text-decoration: none;
+font-weight: 400px;
+margin-top:40px ; 
+font-style: normal; 
+font-family: ubuntu; 
+}
+.btn-default{
+    border-radius: 100px;
+    text-shadow: none;
+    background-color:#ffffff;
+    border: 1px solid #000;
+    outline: none;
+}
+.nav > li > a:hover{
+	background-color: transparent;
+	color: black;
+}
+.nav > li > a.active{
+    color: black;
+}
+.navbar-nav > li > a {
+    padding: 0px 14px 3px 36px;
+}
+.black{
+    font-weight: bold;
+    font-size: small;
+    font-family: Ubuntu;
+}
+/* image */
+.image{
+    background-image: url(../images/background.png);
+    height:auto;
+    min-height:300px;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+/* searchform */
+.row{
+    position: relative;
+}
+.looking-search{
+    position: relative;
+    bottom:130px;
+    width: 100%;
+}
+.main-image-text{
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 34.47px;
+    color: white;
+    margin-bottom: 20px;
+    font-family: Ubuntu;
+}
+.search-box{
+    background-color:#ffffff;
+    min-height: 178px;  
+    border-radius: 5px;
+    padding: 25px 0px 25px 25px;
+}
+.form-control{
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    background: none !important; 
+    border: none !important;
+    border-bottom: 1px solid #878787 !important; 
+    font-family: Ubuntu;
+
+}
+.btn-info{
+    border-radius: 20px;
+    padding: 5px 40px;
+    font-family: Ubuntu;
+    outline: none !important;
+    border: none !important;
+}
+.search-box-note{
+    position: relative;
+    color: #BABABA;
+    font-family: Ubuntu;
+    bottom: 10px;
+    
+}
+/* scroll-div */
+.masks{ 
+    bottom: 139px;
+    background: #000000;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.0755208);
+    border-radius: 5px;
+    padding: 6px 45px 6px 4px;
+    height: 76px;
+    margin: 12px; 
+}
+.div-text{
+    position: relative;
+    color: #fff;
+    font-weight:bold;
+    font-style: normal;
+    font-size: 16px;
+    top: 9px;
+    left: 55px;
+    font-family: Ubuntu;
+    text-transform: uppercase;
+}
+ #image-shape{
+    position: absolute;
+    width: 30px;
+    height: 26px;
+    left: 26px;
+    top: 24px;
+    
+} 
+.div-description{
+    position: relative;
+    color:#ffffff ;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    padding-left: 41px;
+    font-family: Ubuntu;
+    top: 8px;
+    left: 18px;
+} 
+.sale-color{
+    background: #F5A623;
+}
+.property-color{
+    background: #12979D;
+}
+.jobs-color{
+    background: #4A90E2;
+}
+.service-color{
+    background: #15B1B8;
+}
+.icon-color{
+    background: #4F8BBE;
+}
+
+/* toppick */
+.top-pick{
+    position: relative;
+    bottom: 119px;
+}
+.topic{
+    color: #000000;
+    font-weight:600 ;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 18.38px;
+    font-family: Ubuntu;
+    text-transform: uppercase !important;
+}
+.information{
+    position: relative;
+    top: 10px;
+    right: 14px;
+}
+.image-content{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #494949;
+}
+.small-content{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #828282;
+    margin-left: 12px;
+}
+.price{
+    position: relative;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    color: #08BC08;
+    bottom: 8px;
+}
+.informations {
+    position: relative;
+    top: 30px;
+    right: 14px;
+}
+.small-img{
+    width: 100%;
+}
+/* carimage */
+.car-description{
+    position: relative;
+    bottom: 50px;
+}
+.car-image{
+    background-image: url(../images/car.png);
+    height:auto;
+    width: 100%;
+    min-height:479px;
+     position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.car-image::before{
+    background: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+}
+.company-logo{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 25px;
+    margin-left: 32px;
+    
+}
+.car-title {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-left: 62%;
+    margin-top: 13%;
+}
+.car-detail{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin-left: 64%;
+    margin-top: 3%;
+}
+.long-text{
+    margin-left: 62%;
+    margin-top:3%;
+}
+.ford-price{
+    color: #FFDF00;
+    border: 1px solid #979797;
+}
+.recently-added {
+    margin-top: 26px;
+    margin-bottom: -9px;
+}
+/* cardslider */
+.card-slider{
+    background-color: #1D1D1D;
+    padding: 14px 0px;
+   
+}
+.card-big-text{
+    color:#ffffff;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 22px;
+    line-height: 30px;
+    margin-top: 120px;
+    margin-bottom: -4px;
+    font-family: Ubuntu;
+}
+.time{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    margin-top: 10px;
+    color: #ACACAC;
+}
+.card{
+    width:242px;
+    height: 296px;
+    border: 2px solid #ffffff !important;
+    background-color: #ffffff;
+    border-radius: 5px !important; 
+    margin: 20px; 
+}
+.card-img{
+    width: 100%;
+    margin-top:12px;
+}
+.slick-prev
+{
+    left: 14px !important;  
+}
+.slick-next{
+   right:12px !important;
+}
+
+
+/* listitems */
+.items{
+    width: 100%;
+    height:auto;
+    border: 0px solid #D3D3D3;;
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin-top: 22px;
+    margin-bottom: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.158996);
+}
+.items-number{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    padding: 27px 0px 0px 22px;
+    
+}
+/* footer */
+.footer{
+    padding: 19px 0px; 
+    background: #000000;
+    margin-top: 26px;
+    position: relative;
+    bottom: 10px;
+}
+
+li{
+    display:block;
+    text-decoration: none; 
+}
+.footer-list li a{
+    font-family: Ubuntu;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+}
+.btn-dark{
+    background-color: #000000;
+    padding: 0px 0px 0px 0px ;
+}
+.download{
+    color: #ffffff;
+    font-family: Ubuntu;
+}
+.copyright-footer{
+    font-family: Ubuntu;
+    position: relative;
+    top: 18px;
+    left: 40px;
+    color: #FFFFFF;
+}
+
+/* bylocation */
+.construction{
+    padding: 20px 0px 0px 0px;
+}
+.homelink{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    text-decoration: none !important;
+}
+.construct{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    color: #000000;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.construction-detail{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal !important;
+    font-size: 14px;
+    height: 55px;
+    color: #000000;
+    margin-left: 18px;
+    bottom: 10px;
+}
+.construction-logo{
+    width:100%;
+    height: auto;
+    margin-top: 24px;
+}
+.about-construction{
+    margin-left: 11px;
+    margin-top: 64px;   
+}
+.about-text{
+    font-size: 14px;
+}
+.construct-text{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #000000;
+}
+.related-listing{
+    padding: 25px 0px 0px 0px;  
+}
+.related{
+    margin-left: 21px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 20px;
+}
+.small-card-image{
+    width: 100%;
+    border-radius: 3px;
+}
+.image-detail{
+    position: relative;
+    width: 100%;
+    height: auto;
+    border: 1px solid #f6f6f6;
+    background-color:#f6f6f6;
+    border-radius:4px;
+    bottom: 1px;
+    margin-bottom: 21px;  
+}
+.image-name{
+    font-weight: bold;
+    color:#000000;
+    margin-left: 5px;
+    font-family: Ubuntu;
+}
+.small-content-image{
+    color: #828282;
+}
+
+/* canberrapost */
+
+.navcolor > li > a{
+    color: #000000;
+}
+.oval{
+  padding: 32px 0px 0px 40px;
+}
+.nav-text{
+    position:relative;
+    top: 15px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+}
+.post-rectangle{
+    padding: 5px 0px;
+    background: #F7F7F7;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.147107);
+}
+.item-numbers{
+    font-family:Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #929292;
+    padding: 16px 0px 0px 22px;
+}
+.canberra-post :hover{
+    color: black;
+    text-decoration: none;
+}
+.post-type{
+    border-radius: 100px;
+    text-shadow: none;
+    background-color:#f7f7f7;
+    border: 1px solid #000;
+    padding: 0px 15px 1px 31px;
+    margin-top: 12px;
+}
+.post-box{
+ padding:12px 0px 0px 0px ;
+}
+.post-fillup{
+    width: 100%;
+    height: 385px;
+    border: 0px solid #ffffff;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.158996);
+    border-radius: 2px;
+    margin-top: 15px; 
+    margin-bottom: 20px;
+    
+}
+.message-box-text{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 7px;
+    margin-left: -6px;
+    margin-bottom: 25px;
+
+}
+.label{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    padding: 0px 10px 1px 0px;
+    margin-left: -17px;
+}
+.form-control1{
+    width: 100%;
+    height: auto;
+    border: 1px solid #D3D3D3;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 4px 0px 4px 10px; 
+    margin-left: -20px;
+    outline: none;
+}
+.description-height{
+    height: 100px;
+}
+.dotted-form{
+    height: 100px;
+    border-style: dotted;
+    background: #FAFAFA;
+    border-radius:0px;
+    
+}
+.small-box{
+    margin-top: 21px;  
+}
+.btn-primary{
+     float: right;
+     margin-top: 4px;
+     background-color: #65B1EF;
+     border-radius: 4px;
+     padding: 0px 24px 3px 31px;
+     outline: none !important;
+     
+}
+.btn-primary:hover{
+   background-color: #65B1EF;
+   border-color:#65B1EF ;
+}
+/* homepage */
+.home{
+   margin-top: 40px;
+    
+}
+.text{
+    color:grey;
+}
+
+.box-shape{
+    width: 100%;
+    height: auto;
+    padding: 12px;
+    border: 1px solid #E7E7E7;
+    box-sizing: border-box;
+    border-radius: 2px;
+    margin-top: 10px;
+ }
+ .textside{
+    bottom: 12px;
+    position: relative;
+    left: 45px;
+    bottom: 18px;
+}
+.box-text{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #000000; 
+    position: relative;
+    bottom: 15px;
+}
+.view{
+    font-family: Ubuntu;
+    float: right;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #65B1EF;
+    text-decoration: none!important; 
+}
+a:hover, a:focus {
+    text-decoration:none;
+}
+.postdetail{
+    font-family: Ubuntu;
+    bottom: 15px;
+    padding: 0px 5px 0px 10px;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 12px;
+   line-height: 14px;
+   color: #65B1EF;
+   position: relative;
+
+}
+.views{
+ color: #828282;
+}
+.post-text{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    margin-left: 11px;
+    color: #000000;
+}
+.message-btn{
+    background: #65B1EF;
+    border-radius: 4px; 
+    padding: 5px 15px 5px 15px;
+    margin-left: 10px;
+    border: none !important;
+    box-shadow: none;
+}
+.small-box-shape{
+   position: relative;
+   bottom: 10px;
+   padding: 3px 29px 0px 0px;
+}
+.social-media{
+    color: #38A8E0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+     float: right;
+    margin-top: -5px; 
+    
+}
+.share-btn{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #828282;
+}
+.fab{
+    font-weight: 400;
+    margin-left: 25px;
+}
+.box-information{
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+/* postlist */
+.post-list{
+    background: #E9EBEE, 63.24%;
+    background: rgba(233, 235, 238, 0.632388);
+}
+.styling{
+    position: relative;
+    bottom: 111px;
+    right: 14px;
+}
+.post-list-text{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+}
+.postlist-box{
+    position: relative;
+    bottom: 111px;
+    right: 14px;
+    background-color: #ffffff;
+    width: 100%;
+    height:670px;
+    padding: 12px;
+    border: 1px solid #E7E7E7;
+    box-sizing: border-box;
+    border-radius: 2px;
+    margin-top: 10px;
+}
+.form-controls{
+    font-family: Ubuntu;
+    width: 30%;
+    padding-left: 8px;
+    margin-top: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #9D9D9D;
+    box-sizing: border-box;
+    border-radius: 4px;
+    outline: none;
+}
+.go-btn{
+    background: #65B1EF;
+    border-radius: 4px;
+    padding: 2px 7px 3px 7px;
+    color: #FFFFFF;
+    padding: 2px 27px 2px 27px;
+    width: 30%;
+    margin-left:1px;
+}
+.choose{
+    width: 62%;
+}
+.form-check{
+    font-family: Ubuntu;
+}
+.private{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #65B1EF;
+}
+.position{
+    position: relative;
+    bottom: 90px;
+    background-color: #ffffff;
+  
+}
+.date{
+    color: #828282;
+}
+.textside{
+ margin-left:26px;
+}
+
+.small-logo{
+    background:#E8E8E8;
+    border-radius: 50%;
+}
+.images{
+    width: 100%;
+   position: relative;
+   bottom: 16px;
+   margin-left: -14px;
+}
+.long-texts{
+    bottom: 8px;
+    position: relative;
+    right: 11px;
+   
+}
+.image-names{
+    color: #000000;
+    margin-left: 55px;
+    margin-top: -35px;
+}
+/* mypost */
+.design{
+    background-color: #65B1EF;
+    border-radius: 2px;
+    margin-top: 15px;
+    height:82px;
+}
+.post-design{
+    margin-top: 15px;
+}
+.post-image{
+    width: 60px;
+}
+.name{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    top: -10px;
+    position: relative;
+}
+.mail{
+    position: relative;
+    font-size: 14px;
+    font: weight 400;
+    top: -33px;
+    left: 71px;
+}
+.total{
+    background-color: #F6F6F6;
+    margin-top:-1px;
+}
+.post-count-number{
+    color:#ffffff;
+    background: #0073B7;
+    border-radius: 9px;
+    float: right;
+    padding: 0px 8px 0px 8px;
+}
+.post-details{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+}
+.sky{
+    background-color: #00C0EF;
+}
+.red{
+    background-color: #DD4B39;   
+}
+.total-posts{
+    margin-top:-1px;
+}
+.default{
+    height: 243px;
+}
+/* new */
+.short-text{
+    color: #FFCE00;
+}
+.btn-warning{
+    font-family: Ubuntu;
+    color: #000;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    border-radius: 20px;
+    padding: 5px 2px 6px 2px;
+    background-color: #FFCE00;
+    border: none !important;
+    outline: none !important;
+ }
+ .btn-warning:hover{
+     color: #000;
+ }
+ .div-details{
+     height:39px;
+     position: relative;
+     bottom: 145px;
+     margin: 12px;
+     background: #FFCE00;
+     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.0755208);
+     border-radius: 5px;
+     
+ }
+ .walking{
+     width: 29px;
+     padding-top: 6px;
+     padding-left: 10px;
+     background-color: #ffce00 !important;
+ }
+
+ #div-image {
+    padding-top: 6px;
+    padding-left: 10px;
+}
+.post-div{
+    color: #000;
+    position: relative;
+    font-weight:bold;
+    font-style: normal;
+    font-size: 16px;
+    top: 4px;
+    left: 15px;
+    font-family: Ubuntu;
+   
+}
+.feature-listing{
+    position: relative;
+    bottom: 119px;
+  
+}
+.listing{
+   margin-left: 12px;
+}
+.services{
+    position: relative;
+    bottom: 119px;
+
+}
+.list{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    margin-bottom: 10px;
+    }
+    .list a{
+        color: #000000;
+    }
+
+.items-namelist{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height:25px;
+   
+    }
+ .items-namelist a{
+        color: #6D6D6D;
+    }
+    .items-namelist a:hover{
+        color:#000000;
+
+    }
+.gym-restaurant{
+    position: relative;
+    bottom: 50px;
+}
+.image-date{
+    margin-top: 10px;
+}
+.image-description{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #000000;
+}
+/* message */
+.message-search{
+    width: 100%;
+    height: 30px;
+    background: #F8F8F8;
+    border-radius: 22px;
+    border: none !important;
+    position: relative;
+    bottom: 10px;
+    padding-left: 40px;
+    box-shadow: none;
+    border-style: none;
+    outline: none;
+    
+}
+.message-big-text{
+    position: relative;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    color: #000000;
+    bottom: 27px;
+}
+ .chat-first{
+    margin-top: -30px; 
+} 
+.message-box{
+   margin-top: 20px;
+   height: 642px;
+}
+.person-name{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #000000;
+    position: relative;
+    bottom: 14px;
+}
+.chat-text{
+    position: relative;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #ABABAB;
+    left: 54px;
+    bottom: 21px;
+    
+}
+.chat-second{
+    position: relative;
+    left: 10px;  
+}
+.person-information{
+    margin-top: 20px;
+    position: relative;
+    right:30px;
+    height: 642px;
+}
+.smallboxs-shape{
+    position: relative;
+    width: 90%;
+    height: 85px;
+    padding: 12px;
+    border: 1px solid #E7E7E7;
+    box-sizing: border-box;
+    border-radius: 2px;
+    margin-top:-8px;
+    left: 45px;
+    
+}
+.longchat-text {
+    margin-left: 55px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    color: #000000;
+}
+
+.msg{
+    position: relative;
+    width:95%;
+    border: none;
+    background: #F8F8F8;
+    border-radius: 10px;
+    height: auto;
+    padding: 12px;
+    left: 29px;
+    bottom: 32px;
+    
+}
+.line{
+    margin-top: -9px;
+}
+.chat-head{
+    width: 4%;
+    position: relative;
+    right: 4px;
+    bottom: 7px;
+}
+.long-message{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #333333;
+}
+.message-description{
+    width: 90%;
+    height: 30px;
+    background: #F8F8F8;
+    border-radius: 22px;
+    border: none !important;
+    position: relative;
+    bottom: 10px;
+    padding-left: 40px;
+    box-shadow: none;
+    border-style: none;
+    outline: none;
+   
+}
+.inputs{
+    margin-left:30px;
+    background-color: #65B1EF;
+    margin-bottom: 100px;
+    outline: none;
+}
+ .inputs::placeholder{
+    color: #ffffff;
+    
+}
+.message-type{
+    margin-top: 40px;
+    border: none;
+    outline: none;
+}
+.post-section{
+    position: relative;
+    bottom: 126px;
+    left: -9px;
+}
+.toppick-content{
+    position: relative;
+    bottom: 14px;
+}
+.recent{
+    margin-bottom: -6px;
+}
+
+
+
+
+
+
+
+
+
+
